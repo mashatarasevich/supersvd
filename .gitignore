@@ -123,3 +123,8 @@ venv.bak/
 .mypy_cache/
 .dmypy.json
 dmypy.json
+
+#TeX rubbish
+*.log
+*.aux
+*.synctex.gz

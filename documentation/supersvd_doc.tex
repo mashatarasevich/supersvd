@@ -1,0 +1,28 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage[top=15mm,left=17.5mm, right=17.5mm, bottom=20mm]{geometry}
+\usepackage{amsmath}
+\usepackage{icomma}
+
+\newcommand*{\hm}[1]{#1\nobreak\discretionary{}%
+	{\hbox{$\mathsurround=0pt #1$}}{}}
+
+\title{\large Программа для вычисления максимально скоррелированных мод и ЭОФ}
+\author{Мария Тарасевич, \texttt{mashatarasevich@gmail.com}}
+\date{}
+
+\begin{document}
+\maketitle
+	
+	
+Написанная на языке \texttt{Python 3} программа состоит из двух файлов \texttt{main.py} и \texttt{supersvd.py}. В файле \texttt{supersvd.py} находится алгоритм вычисления максимально скоррелированных мод, а в \texttt{main.py} --- вспомогательный код, который анализирует ключи запуска программы, делает чтение входных данных из файлов, а также записывает в выходные файлы результаты работы алгоритма.
+
+Функцию \texttt{supersvd} можно напрямую использовать из кода на \texttt{Python}, в этом случае не обязательно сохранять массивы в виде файлов на диске. 
+ 
+\input{description}
+
+\input{usage}
+
+\end{document}
