@@ -18,7 +18,7 @@ plt.figure()
 plt.plot(first_ps_timeseries)
 plt.savefig('first_ps_timeseries.png')
 
-print('Correlation coefficient between first_ts_timeseries. and first_ps_timeseries:', svd.corrcoeff[0])
+print('Correlation coefficient between first_ts_timeseries and first_ps_timeseries:', svd.corrcoeff[0])
 
 
 
